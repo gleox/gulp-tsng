@@ -1,0 +1,53 @@
+{
+  "name": "gulp-tsng",
+  "version": "0.1.3",
+  "author": {
+    "name": "gleox",
+    "email": "gleox@live.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gleox/gulp-tsng.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gleox/gulp-tsng/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://github.com/gleox/gulp-tsng/blob/master/LICENSE"
+    }
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0"
+  },
+  "devDependencies": {
+    "connect": "^3.4.1",
+    "glob": "~4.0.4",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.4.3",
+    "gulp-sequence": "^0.4.5",
+    "gulp-tslint": "^4.3.2",
+    "gulp-typescript": "^2.11.0",
+    "gulp-util": "~2.2.14",
+    "serve-static": "^1.10.2",
+    "through2": "~0.5.1",
+    "tslint": "^3.5.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "gulpplugin",
+    "typescript",
+    "angular",
+    "angularjs"
+  ],
+  "files": [
+    "index.js",
+    "LICENSE"
+  ]
+}
