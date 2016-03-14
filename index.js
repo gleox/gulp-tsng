@@ -565,9 +565,6 @@ var AngularTransform = (function () {
             && !result.directives[0].ctorStartLine;
         srcLines.forEach(function (line, i) {
             if (i === 0 && module.file) {
-                // Add reference to module file
-                // e.g. /// <reference path="../../MyModule.ng.ts" />
-                content += "/// <reference path=\"" + path.relative(path.dirname(filepath), module.file.path) + "\" />" + this._options.newLine + this._options.newLine;
             }
             var emitBind = result.directives.length ?
                 result.directives[0].ctorEndLine ?

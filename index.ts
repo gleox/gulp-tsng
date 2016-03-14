@@ -678,7 +678,7 @@ class AngularTransform {
                 // Add reference to module file
                 // e.g. /// <reference path="../../MyModule.ng.ts" />
 
-                content += "/// <reference path=\"" + path.relative(path.dirname(filepath), module.file.path) + "\" />" + this._options.newLine + this._options.newLine;
+                // content += "/// <reference path=\"" + path.relative(path.dirname(filepath), module.file.path) + "\" />" + this._options.newLine + this._options.newLine;
             }
 
             var emitBind: boolean = result.directives.length ?
